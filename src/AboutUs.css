@@ -1,0 +1,59 @@
+.inputFiel{
+    box-sizing: border-box;
+    width: 274px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+  }
+  
+  .AboutUs_Emergency{
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: 200px 100px;
+    padding-top: 341px;
+  }
+
+  .Emergency_Box{
+    width: 561.21px;
+    height: 609.64px;
+    margin-left: 631px;
+    background: #EDF1F3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+
+  .middle{
+    margin-top: 30px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .middle1{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+  .box1{
+    width: 230px;
+    height: 205px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: 2px solid #EDF1F3;
+  }
+
+  .box2{
+    
+  }

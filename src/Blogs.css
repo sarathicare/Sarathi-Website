@@ -1,0 +1,68 @@
+.subHead1{
+    width: 565.1px;
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #345369;
+}
+
+.category_btn{
+    width: 100px;
+    height: 30px;
+    background: #00B49E;
+    box-shadow: 0px 11px 31px rgba(0, 180, 158, 0.13);
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-text{
+    margin: auto;
+    width: 62.58px;
+    height: 15px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.text2{
+    height: 20px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+
+}
+
+.links{
+    width: 60px;
+    height: 20px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0075C8;
+}
+
+.btnShowMore{
+    width: 181.58px;
+    height: 56.7px;
+    background: #0075C8;
+    box-shadow: 0px 11px 31px rgba(0, 140, 238, 0.4);
+    border-radius: 10px;
+    border: none;
+}

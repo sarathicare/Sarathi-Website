@@ -1,0 +1,67 @@
+.homeAnchor:hover {
+    color: #00B49E;
+}
+
+.profileAnchor{
+    color: #00B49E;
+}
+
+.welcomeBox{
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+    height: 110px;
+    background: #0075C8;
+    box-shadow: 0px 11px 31px rgba(0, 140, 238, 0.4);
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.headMP{
+    width: 162px;
+    height: 30px;
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #838383;
+
+}
+
+.profileTop{
+    width: 112px;
+    height: 16px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #0075C8;
+
+}
+
+.profileBox{
+    box-sizing: border-box;
+    width: 563px;
+    height: 626.06px;
+    background: #FFFFFF;
+    border: 1px solid #EDF1F3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.inputField5{
+    box-sizing: border-box;
+    width: 253.34px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+    overflow: hidden;
+}

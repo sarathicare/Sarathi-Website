@@ -1,0 +1,8 @@
+.btnRegister1{
+    width: 120px;
+    height: 55px;
+    background: #0075C8;
+    box-shadow: 0px 11px 31px rgba(0, 140, 238, 0.4);
+    border-radius: 10px;
+    border: none;
+}

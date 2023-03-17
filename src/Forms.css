@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+.categoryAnchor:hover, .categoryAnchor:hover > .category2{
+  text-decoration: underline #0075C8;
+  color: #0075C8;
+  cursor: pointer;
+}
+
+.category2{
+  height: 20px;
+  font-family: 'Daikon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #345369;
+
+}
+.a1{
+  position: absolute;
+  left: 16.22%;
+  right: 71.23%;
+  top: 7.82%;
+  bottom: 91.51%;
+}
+.form_back{
+    background-image: url('./Assets/formImg.png') ;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.inputField{
+  box-sizing: border-box;
+  width: 274px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 12px;
+}
+
+.callNowInput {
+  /* margin-top: 5px; */
+  outline: none;
+  display:block;
+  line-height: 1.2em;
+  font-size: 14pt;
+  border: none;
+  height: 40px;
+}
+
+
+
+.callNowSelect{
+  border: none;
+  margin: auto;
+  padding: 10px;
+}
+
+label {
+  margin-left: 20px;
+  height: 20px;
+  font-family: 'Daikon';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #838383;
+}
+
+::placeholder{
+  height: 20px;
+  font-family: 'Daikon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  opacity: 0.3;
+}
+
+#PhNo:active{
+  background-image: none;
+}
+
+.inputButton{
+  width: 177.54px;
+  height: 80px;
+  background: #0075C8;
+  box-shadow: 0px 11px 31px rgba(0, 140, 238, 0.4);
+  border-radius: 12px;
+  color : #FFFFFF;
+  border: none;
+}
+
+.text{
+  width: 426px;
+  height: 40px;
+  font-family: 'Daikon';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #838383;
+  margin-top: 20px;
+
+}
+
+.categoryAnchor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

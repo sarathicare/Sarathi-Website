@@ -1,0 +1,266 @@
+.c{
+    position: absolute;
+    width: 113px;
+    height: 20px;
+    left: 150px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #0075C8;
+    margin: 5px;
+}
+.d{
+    position: absolute;
+    width: 556.8px;
+    height: 55px;
+    left: 150px;
+
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #345369;
+    margin: 10px;
+}
+.e{
+    position: absolute;
+width: 370px;
+height: 291.54px;
+left: 150px;
+
+/* P2 */
+
+background: #0075C8;
+border-radius: 20px;
+
+backdrop-filter: blur(18px);
+}
+
+h1{
+    height: 55px;
+
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    text-transform: capitalize;
+}
+
+p{
+    height: 72px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.box{
+    border-radius: 20px;
+     background: #FFFFFF;
+      border: 2px solid #EDF1F3; 
+      box-shadow: 0px 14px 30px rgba(0, 117, 200, 0.1);
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      
+    padding-left: 20px;
+}
+ 
+
+.box:hover, .box:hover > .boxTop .docSer , .box:hover > .boxText ,  .box:hover > .learnMore {
+    background: #0075C8 ;
+    color: white;
+}
+
+.box:hover > .boxTop .styleBadge{
+    background: white;
+}
+
+.styleBadge{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: #EDF1F3;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.docSer{
+    height: 20px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #345369;
+}
+
+.boxText{
+    margin-top: 5px;
+    justify-content: center;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #838383;
+}
+
+.learnMore{
+    display: flex;
+    justify-content: end;
+    height: 16px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #0075C8;
+}
+
+.blogsSection{
+    padding-left: 150px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.heading{
+    height: 20px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #0075C8;
+    /* margin-top: 50px; */
+}
+
+.tickNext{
+    width: 326.16px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #00B49E;
+
+}
+
+.subHead{
+    margin-top: 15px;
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.text1{
+    margin-top: 15px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #838383;
+}
+
+.btnBlogs{
+    margin-top: 35px;
+    width: 178px;
+    height: 55px;
+    background: #0075C8;
+    box-shadow: 0px 11px 31px rgba(0, 140, 238, 0.4);
+    border-radius: 10px;
+    color: #FFFFFF;
+    border-color: #0075C8;
+    border: none;
+}
+
+.imgBox{
+    box-sizing: border-box;
+    width: 276.1px;
+    height: 203.64px;
+    filter: drop-shadow(0px 14px 30px rgba(0, 117, 200, 0.1));
+    border-radius: 20px;
+    margin-left: 0px;
+}
+
+.blogsCat{
+    margin-top: 20px;
+    width: 78px;
+    height: 20px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #0075C8;
+}
+
+.catText{
+    margin-top: 15px;
+    width: 276.1px;
+    height: 67.55px;
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #345369;
+
+}
+
+.RP{
+    width: 30px;
+    height: 30px;
+}
+
+.docName{
+    width: 85px;
+    height: 12px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #345369;
+}
+
+.docCat{
+    width: 39px;
+    height: 12px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #838383;
+}
+
+Link{
+    text-decoration: none;
+}

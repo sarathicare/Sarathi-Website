@@ -1,0 +1,53 @@
+.downBox{
+    overflow: hidden;
+    position: relative;
+    width: 1141.1px;
+    height: 291.54px;
+    background: #0075C8;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 40px;
+    z-index: -1;
+}
+
+.mobileImg{
+    position: absolute;
+    left: 850px;
+}
+
+.downBox1{
+    overflow: hidden;
+    margin-bottom: 15px;
+    height: 20px;
+    font-family: 'Daikon';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.demo-bg {
+    position: absolute;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+    width: 1141.1px;
+    height: 291.54px;
+  }
+.downBox2{  
+    margin-bottom: 30px;
+    width: 600px;
+    height: 90px;
+    font-family: 'Encode Sans Normal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
